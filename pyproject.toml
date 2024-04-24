@@ -1,0 +1,14 @@
+[build-system]
+requires = [
+    "setuptools >= 65",
+    "wheel >= 0.38",
+]
+build-backend = "setuptools.build_meta"
+[project]
+name = "unsupervised_steering_vectors"
+version = "0.1.0"
+dependencies = [
+    "transformers>=4.39.2",
+    "torch>=2.2.1",
+    "tqdm>=4.65.0",
+]
